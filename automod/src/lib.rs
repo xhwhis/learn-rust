@@ -57,8 +57,11 @@ fn mod_item(vis: &Visibility, name: String) -> TokenStream2 {
             #vis mod #ident;
         }
     } else if ["fn", "mut", "ref", "trait"].contains(&name.as_str()) {
-        let ident = Ident::new(("r#".to_owned() + &name).as_str(), Span::call_site());
+        let path = format!("{}.rs", name);
+        let ident = Ident::new(("_".to_owned() + &name).as_str(), Span::call_site());
+        // FIXME
         quote! {
+            #[path = #path]
             #vis mod #ident;
         }
     } else {
