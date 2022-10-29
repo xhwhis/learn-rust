@@ -6,7 +6,7 @@ use std::process::Command;
 
 fn main() {
     let out_dir = env::var("OUT_DIR").unwrap();
-    Command::new("gcc")
+    Command::new("cc")
         .args(&["src/assign.c", "-c", "-fPIC", "-o"])
         .arg(PathBuf::from(&out_dir).join("assign.o"))
         .status()

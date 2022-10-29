@@ -15,18 +15,23 @@
     <cargoProject FILE="$PROJECT_DIR$/Cargo.toml" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dbcf39ac-de4d-4c03-8f73-7cee8326b21c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/crates/rust-to-c/build.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+    <list default="true" id="790dc0a7-e85d-4a66-9c6b-8a52760a8b76" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/crates/c2rust/Cargo.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crates/c2rust/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crates/c2rust/main.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crates/c2rust/src/lib.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crates/rust2c/Cargo.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crates/rust2c/build.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crates/rust2c/src/assign.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crates/rust2c/src/assign.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crates/rust2c/src/main.rs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/rust.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/rust.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crates/automod/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/crates/automod/Cargo.toml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crates/rust-with-c/Cargo.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crates/rust-with-c/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/crates/rust-to-c/Cargo.toml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crates/rust-with-c/assign.c" beforeDir="false" afterPath="$PROJECT_DIR$/crates/rust-to-c/src/assign.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crates/rust-with-c/assign.h" beforeDir="false" afterPath="$PROJECT_DIR$/crates/rust-to-c/src/assign.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crates/rust-with-c/build.rs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crates/rust-with-c/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/crates/rust-to-c/src/main.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crates/rust-with-c/wrapper.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crates/rust-to-c/Cargo.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crates/rust-to-c/build.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crates/rust-to-c/src/assign.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crates/rust-to-c/src/assign.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crates/rust-to-c/src/main.rs" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,12 +45,12 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MacroExpansionManager">
-    <option name="directoryName" value="tzqa6mc0" />
+    <option name="directoryName" value="b1gk3xah" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2GkskwtADg7JcCJcC9rg2xOx3Rk" />
+  <component name="ProjectId" id="2GokosKpoYuNpYSi6jQjRc0C4JZ" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -64,19 +69,19 @@
 }</component>
   <component name="RustProjectSettings">
     <option name="runExternalLinterOnTheFly" value="true" />
-    <option name="toolchainHomeDirectory" value="$USER_HOME$/.cargo/bin" />
+    <option name="toolchainHomeDirectory" value="$PROJECT_DIR$/../.cargo/bin" />
     <option name="version" value="2" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="dbcf39ac-de4d-4c03-8f73-7cee8326b21c" name="Changes" comment="" />
-      <created>1666944064100</created>
+      <changelist id="790dc0a7-e85d-4a66-9c6b-8a52760a8b76" name="Changes" comment="" />
+      <created>1667062503323</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1666944064100</updated>
-      <workItem from="1666944066290" duration="88000" />
-      <workItem from="1666944163903" duration="44000" />
+      <updated>1667062503323</updated>
+      <workItem from="1667062505424" duration="37000" />
+      <workItem from="1667062547883" duration="7000" />
     </task>
     <servers />
   </component>
